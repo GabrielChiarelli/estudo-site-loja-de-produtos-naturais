@@ -7,7 +7,8 @@
 }
 
 .div-main {
-    width: 1500px;
+    min-width: 480px;
+    max-width: 1500px;
     margin: auto;
 }
 
@@ -41,6 +42,11 @@ nav {
     justify-content: center;
 }
 
+.banner-image {
+    min-width: 480px;
+    max-width: 1500px;
+}
+
 /*section {
     overflow-x: hidden;
 }*/
@@ -70,10 +76,30 @@ main {
     padding: 30px 5%;
 }
 
+.product-page {
+    /*display: flex;
+    flex-direction: column;*/
+    display: block;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
 .column {
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+
+.product-container {
+    float: left;
+    padding: 40px 60px;
 }
 
 .product {
