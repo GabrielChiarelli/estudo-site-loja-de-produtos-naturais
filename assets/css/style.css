@@ -6,6 +6,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+body {
+    background-color: rgb(240, 240, 240);
+}
+
 .div-main {
     min-width: 480px;
     max-width: 1500px;
@@ -113,6 +117,14 @@ main {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.product img:hover {
+    border-radius: 50px;
 }
 
 .product span {
