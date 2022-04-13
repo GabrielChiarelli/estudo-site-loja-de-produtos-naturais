@@ -47,6 +47,7 @@ nav {
 }
 
 .banner-image {
+    max-height: 370px;
     min-width: 480px;
     max-width: 1500px;
 }
