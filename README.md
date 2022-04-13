@@ -1,2 +1,2 @@
 # estudo-site-loja-de-produtos-naturais
- (em breve)
+Link do tutorial de Eduardo Mota: https://www.youtube.com/playlist?list=PLOfKzAi2JkAgYAH-lwDzLqXwNdYAWtyei
